@@ -3,7 +3,7 @@ import EmailTemplate from '@/components/EmailTemplate';
 import MyTemplate from '@/components/MyTemplate';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend("fake");
 
 
 export async function POST(request) {
